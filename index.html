@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+</head>
+
+<body>
+  <h2>Calculator</h2>
+  <div>
+    <form>
+      <input name="num1" type="number"
+        onKeyUp="if (this.value>50) this.value='50'; else if (this.value<0) this.value='0';">
+      <select name="sign">
+        <option value="+">+</option>
+      </select>
+      <input name="num2" type="number"
+        onKeyUp="if (this.value>50) this.value='50'; else if (this.value<0) this.value='0';">
+    </form>
+    <button onclick="calculate()">=</button>
+    <span id="result">0</span>
+  </div>
+</body>
+<script type="text/javascript" src="./script.js"></script>
+
+</html>
