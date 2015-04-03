@@ -1,0 +1,13 @@
+form {
+  float: left;
+  margin-right: 5px;
+}
+
+input, select, span, button {
+  width: 50px;
+  font-size: 20px;
+}
+
+select:hover, button:hover {
+  cursor: pointer;
+}
